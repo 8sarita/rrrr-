@@ -85,7 +85,7 @@ function setup(){
   wall4.shapeColor = "yellow";
   
   up = createSprite(windowWidth/2-150,windowHeight+50);
-  up.scale= 0.08;
+  up.scale= 0.8;
   up.addImage(upImg);
 
   down = createSprite(windowWidth/2+150,windowHeight+50);
