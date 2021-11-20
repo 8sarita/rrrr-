@@ -216,8 +216,8 @@ function controls(){
   }
   
  
-  if(touches.length < windowWidth/2) {
-
+  if(touches.length < 0) {
+    touches = [];
     playerCar.y = playerCar.y-10;
   
   }
